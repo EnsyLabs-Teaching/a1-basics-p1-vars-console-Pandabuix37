@@ -28,6 +28,25 @@ h. Afiseaza in consola: "Utilizatorul [nume] a introdus numarul [numarIntregCiti
 
 
         // Your code here
-
+      
+        int numarIntreg = 10;
+        float numarFloat = 20.5231f;
+        string text = "Salut, lume";
+        bool esteAdevarat = true;
+        Console.WriteLine(numarIntreg);
+        Console.WriteLine(numarFloat);
+        Console.WriteLine(text);
+        Console.WriteLine(esteAdevarat);
+        Console.WriteLine();
+        Console.WriteLine("Salut lume, astazi invat C#.");
+        Console.WriteLine();
+        Console.WriteLine("Care este numele tau?");
+        string nume=Console.ReadLine();
+        Console.WriteLine("Bine ai venit" + " " + nume + "!" );
+        Console.WriteLine();
+        Console.WriteLine("Introdu un numar intreg:");
+        string numarIntregCitit = Console.ReadLine();
+        Console.WriteLine();
+        Console.WriteLine("Utilizatorul" + " " + nume + " a introdus numarul" + " " + numarIntregCitit);
     }
 }
