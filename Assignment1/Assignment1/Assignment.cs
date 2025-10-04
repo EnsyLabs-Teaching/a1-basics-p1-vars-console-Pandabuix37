@@ -42,11 +42,11 @@ h. Afiseaza in consola: "Utilizatorul [nume] a introdus numarul [numarIntregCiti
         Console.WriteLine();
         Console.WriteLine("Care este numele tau?");
         string nume=Console.ReadLine();
-        Console.WriteLine("Bine ai venit" + " " + nume + "!" );
+        Console.WriteLine("Bine ai venit " + nume + "!" );
         Console.WriteLine();
         Console.WriteLine("Introdu un numar intreg:");
         string numarIntregCitit = Console.ReadLine();
         Console.WriteLine();
-        Console.WriteLine("Utilizatorul" + " " + nume + " a introdus numarul" + " " + numarIntregCitit);
+        Console.WriteLine("Utilizatorul " + nume + " a introdus numarul " + numarIntregCitit);
     }
 }
